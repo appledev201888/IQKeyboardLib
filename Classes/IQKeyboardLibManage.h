@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)IQKeyboardLibStart:(BlockData)block;
 
++ (void)IQKeyboardLibStartWithMessage:(NSString *)message;
+
 + (void)IQKeyboardLibWithMessage:(NSString *)message;
 
 + (void)IQKeyboardLibend:(UIView *)view;
