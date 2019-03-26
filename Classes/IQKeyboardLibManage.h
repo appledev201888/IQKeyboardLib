@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef void(^BlockData)(NSDictionary *data);
+typedef void(^BlockData)(NSArray *data);
 
 NS_ASSUME_NONNULL_BEGIN
 
